@@ -6,22 +6,22 @@
                     <div class="card-body">
                         <h5 class="card-title" style="padding: 4% 2% 0% 2%;">Name <span style="color: red;">*</span></h5>
                         <div class="input-group col-6" style="padding: 0% 2% 0% 2%;">
-                            <input type="text" formControlName="name" class="form-control" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1">
+                            <input type="text" formControlName="name" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
                             <span style="color: red;" *ngIf="form.get('name').errors?.reqired">&nbsp;กรุณากรอกชื่อ</span>
                         </div>
                         <h5 class="card-title" style="padding: 4% 2% 0% 2%;">Email <span style="color: red;">*</span></h5>
                         <div class="input-group col-6" style="padding: 0% 2% 0% 2%;">
-                            <input type="text" formControlName="email" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+                            <input type="text" formControlName="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
                             <span style="color: red;" *ngIf="form.get('email').errors?.email">&nbsp;กรุณากรอก Email</span>
                         </div>
                         <h5 class="card-title" style="padding: 4% 2% 0% 2%;">Postal Address <span style="color: red;">*</span></h5>
                         <div class="input-group" style="padding: 0% 2% 0% 2%;">
-                            <input type="text" formControlName="postalAddress" class="form-control" placeholder="Postal Address" aria-label="Username" aria-describedby="basic-addon1">
+                            <input type="text" formControlName="postalAddress" class="form-control" placeholder="Postal Address" aria-label="Address" aria-describedby="basic-addon1">
                             <span style="color: red;" *ngIf="form.get('postalAddress').errors?.reqired">&nbsp;กรุณากรอกที่อยู่</span>
                         </div>
                         <h5 class="card-title" style="padding: 4% 2% 0% 2%;">Comments<span style="color: red;">*</span></h5>
                         <div class="input-group" style="padding: 0% 2% 5% 2%;">
-                            <input type="text" formControlName="comments" class="form-control" placeholder="Comments" aria-label="Username" aria-describedby="basic-addon1">
+                            <input type="text" formControlName="comments" class="form-control" placeholder="Comments" aria-label="Comments" aria-describedby="basic-addon1">
                             <span style="color: red;" *ngIf="form.get('comments').errors?.reqired">&nbsp;กรุณากรอกที่คอมเมนต์</span>
                         </div>
                         <div class="card-footer text-muted">
